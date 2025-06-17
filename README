@@ -1,0 +1,36 @@
+# Linear Regression Gradient Descent
+
+This project demonstrates linear regression using gradient descent in Python with NumPy.
+
+## Files
+
+- [score.py](score.py): Main script that performs linear regression using gradient descent.
+- [score_updated.csv](score_updated.csv): CSV file containing the dataset (input and output values).
+
+## How to Run
+
+1. Make sure you have Python and NumPy installed.
+2. Place both `score.py` and `score_updated.csv` in the same directory.
+3. Run the script:
+
+```sh
+python score.py
+```
+
+## What It Does
+
+- Loads the dataset from `score_updated.csv`.
+- Initializes parameters for linear regression.
+- Runs gradient descent to fit a line to the data.
+- Prints the starting and ending values of the parameters and the error.
+
+## Requirements
+
+- Python 3.x
+- NumPy
+
+Install NumPy with:
+
+```sh
+pip install numpy
+```
